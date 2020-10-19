@@ -40,6 +40,7 @@ git clone https://github.com/vanessa-opensource/vanessa-bootstrap.git .
 
 ```Shell
 git remote add -f --no-tags -m --mirror bootstrap https://github.com/vanessa-opensource/vanessa-bootstrap.git
+git remote remove origin
 ```
 
 * подключите репозиторий к своему git серверу (GitHub, Bitbucket, GitLab, etc)
