@@ -9,6 +9,11 @@ git config --global user.email aartbear@gmail.com
 
 git config --global core.quotePath false
 
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+
 @rem for Windows
 
 git config --global core.autocrlf true
