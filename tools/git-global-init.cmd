@@ -22,7 +22,7 @@ git config --global alias.last "log -1 HEAD"
 @rem for Windows
 
 git config --global core.autocrlf true
-git config --global core.safecrlf true
+git config --global core.safecrlf false
 
 @rem for Linux and MacOS
 @rem git config --global core.autocrlf input
