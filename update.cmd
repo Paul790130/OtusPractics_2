@@ -1,12 +1,7 @@
 @chcp 65001
 
-@rem обновление конфигурации основной разработческой ИБ без поддержки. по умолчанию в каталоге build/ib
-call vrunner update-dev --src src/cf
-
-@rem обновление конфигурации  основной разработческой ИБ на поддержке. для включения раскомментируйте код ниже
-@rem call vrunner compile --src src/cf --out build/1cv8.cf %*
-@rem call vrunner load --src build/1cv8.cf %*
-@rem call vrunner updatedb %*
+@rem обновление конфигурации основной разработческой ИБ без поддержки или на поддержке. по умолчанию в каталоге build/ib
+call vrunner update-dev --src src/cf --disable-support
 
 @rem обновление конфигурации основной разработческой ИБ из хранилища. для включения раскомментируйте код ниже
 @rem call vrunner loadrepo %*
